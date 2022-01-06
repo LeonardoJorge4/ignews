@@ -13,10 +13,9 @@ interface PostProps {
     content: string;
     updatedAt: string;
   }
-
 }
 
-export default function Post({ post }: PostProps) {
+export default function Post(post) {
   return (
     <>
     <Head>
